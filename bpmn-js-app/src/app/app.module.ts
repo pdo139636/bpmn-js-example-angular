@@ -1,3 +1,4 @@
+// app.module.ts
 import { BrowserModule } from '@angular/platform-browser';
 import { DiagramComponent } from './diagram/diagram.component';
 import { NgModule } from '@angular/core';

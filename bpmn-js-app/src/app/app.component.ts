@@ -1,3 +1,4 @@
+// app.component.ts
 import { Component } from '@angular/core';
 
 @Component({
@@ -6,8 +7,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+ 
   title = 'bpmn-js-angular';
-  diagramUrl = 'https://cdn.statically.io/gh/bpmn-io/bpmn-js-examples/dfceecba/starter/diagram.bpmn';
+  diagramUrl = './assets/diagram_01.bpmn';
   importError?: Error;
 
   handleImported(event) {
@@ -28,5 +30,4 @@ export class AppComponent {
 
     this.importError = error;
   }
-
 }

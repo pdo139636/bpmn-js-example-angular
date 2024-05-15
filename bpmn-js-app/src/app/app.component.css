@@ -1,7 +1,8 @@
 .diagram-parent {
-  height: 400px;
-  border: solid 3px #EEE;
+  height: 500px;
+  border: solid 3px #44cc81;
   position: relative;
+  padding: 20px;
 }
 
 .import-error {
